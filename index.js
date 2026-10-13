@@ -54,3 +54,9 @@ function loginhandler(username, password, clbk){
 }
 //loginhandler("harshsingh2275", "23456", login)
 //loginhandler("harshsingh22", "23456", login)
+
+//console.log is a synchronous function.
+
+console.log("one")
+setTimeout(()=>{console.log("two")},1000)
+console.log("three")
